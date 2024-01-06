@@ -2,8 +2,8 @@
   "products": [
     {
       "id": 4,
-      "title": "Product 4",
-      "price": 839
+      "title": "Product 4212",
+      "price": "83912"
     },
     {
       "title": "product baru nih",
@@ -19,11 +19,6 @@
       "title": "123",
       "price": "dasdsa",
       "id": 7
-    },
-    {
-      "title": "",
-      "price": "",
-      "id": 9
     },
     {
       "title": "asd",

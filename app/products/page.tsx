@@ -1,6 +1,7 @@
 import { Metadata } from "next"
 import AddProduct from "./addProduct"
 import DeleteProduct from "./deleteProduct" 
+import UpdateProduct from "./updateProduct"
 
 type Product = {
     id: number,
@@ -42,8 +43,9 @@ export default async function ProductList() {
                         <td className="">{index+1}</td>
                         <td>{product.title}</td>
                         <td>{product.price}</td>
-                        <td>
+                        <td className="flex items-center justify-center gap-2">
                             <DeleteProduct {...product}/>
+                            <UpdateProduct {...product}/>
                         </td>
                     </tr>
                     // <p key={product.id}>{product.title} {product.price}</p>
